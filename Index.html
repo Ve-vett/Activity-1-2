@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title> Activity 1 & 2 </title>
+    </head>
+    <header>
+        <h1> Web Architecture & Semantic HTML5 </h1>
+
+        <nav>
+            <a href="https://example.com"> Web Architecture</a> |
+            <a href="https://example.com"> Multimedia</a> |
+            <a href="https://example.com"> Form Validation </a>
+        </nav>
+    </header>
+
+        <body>
+
+            <hr>
+
+            <main>
+                <section>
+                <div class="card">
+                    <h2> 1. Web Architecture Concepts </h2>
+                        <hr>
+                    <article>
+                        <h3> Client-Server Model </h3>
+                        <br>
+                        <p> The <b> Client </b> (your browser) sends a request, and the <b> Server </b> returns the web page response. </p>
+                    </article>
+
+                    <article>
+                        <h3> DNS (Domain Name Server) </h3>
+                        <br>
+                        <p> Translate human-friendly domain names (like <samp> example.com </samp>) into  numeric IP addresses. </p>
+                    </article>
+
+                    <article>
+                        <h3> HTTP vs. HTTPS </h3>
+                        <br>
+                        <p> <b> HTTP </b> sends data in plain text, while <b> HTTPS </b> encrypts data securely using SSL/TLS. <p>
+                    </article>
+                </div>
+                </section>
+
+            <hr>
+
+                <div class="card">
+                    <h2> 2.HTML5 Multimedia </h2>
+                        <hr>
+                        <p> <b> Audio Tags: </b> </p>
+                            <audio controls>
+                                <source src="horse.mp3" type="audio/mp3">
+                            </audio>
+
+                        <p> <b> Video Tags: </b> </p> 
+                            <video width="320" height="180" controls>
+                                <source src="mov_bbb.mp4" type="video/mp4">
+                            </video>
+                </div>
+
+            <hr>
+
+                <div class="card">
+                    <h2> 3. HTML5 Form & Validation </h2>
+                        <hr>
+                        <label for="fname"> Full Name (Required): </label>
+                            <br>
+                        <form action="page.php">
+                        <input type="text" id="fname">
+                        
+                            <br> <br>
+
+                        <label for="email"> Email Address (Native Validation): </label>
+                            <br>
+                        <input type="email" id="email">
+                        </form>
+
+                            <br>
+
+                    <label> Which protocols uses encryption? </label> <br>
+                        <select> 
+                            <option> --Select an Option-- </option>
+                            <option> --Select an Option-- </option>
+                            <option> --Select an Option-- </option>
+                        </select>
+
+                            <br> <br>
+                        
+                    <button> Submit Form </button>
+
+                </div>
+
+            </main>
+    </body>
+</html>

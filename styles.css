@@ -1,0 +1,81 @@
+header{
+    background-color: rgb(50, 81, 189);
+    padding: 20px 10px;
+}
+
+body {
+    background-color: rgb(237, 246, 255);
+    font-family: arial;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(24, 52, 108);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: arial;
+    color: rgb(15, 56, 140);
+}
+
+article {
+    border-left: 6px solid rgb(15, 56, 140);
+    background-color: rgb(205, 230, 238);
+    padding: 20px;
+    margin: 15px 0;
+}
+
+.card {
+    background-color: white;
+    padding: 25px 30px;
+    width: 90%;
+    max-width: 600px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px grey;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+select {
+    font-size: 15px;
+}
+
+select > option {
+    background-color: white;
+}
+
+button {
+    background-color: green;
+    border: none;
+    color:white;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+hr {
+    width: 540px;
+}
